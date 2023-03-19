@@ -32,7 +32,7 @@ const Meta: React.FC<IMeta> = ({
       <meta name="twitter:image" content={image} />
       <meta name="twitter:card" content="summary_large_image" />
       <title>
-        {title.includes("Teo") ? title : `Teo | ${title}`}
+        {title.includes("Michael") ? title : `Michael | ${title}`}
       </title>
     </Head>
   );
